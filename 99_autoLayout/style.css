@@ -1,0 +1,8 @@
+#contents {
+  display: flex;
+}
+
+.boxes {
+  width: 100px;
+  height: 100px;
+}
