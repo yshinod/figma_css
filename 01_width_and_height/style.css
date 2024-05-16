@@ -1,0 +1,32 @@
+/* 固定幅親要素 */
+#fixedParent {
+  width: 1000px;
+  height: 1000px;
+}
+
+/*固定幅子要素 */
+.fixedWidth {
+  width: 200px;
+  height: 200px;
+}
+
+/* 内包親要素 */
+/* .hugContentsはwidthやheightを指定しない */
+
+/* 内包子要素 */
+.hugContents {
+  width: 200px;
+  height: 200px;
+}
+
+/* 拡大親要素 */
+#fillParent {
+  width: 1000px;
+  height: 1000px;
+}
+
+/* 拡大子要素 */
+.fillContainer {
+  width: 100%;
+  height: calc(100% / 3);
+}
