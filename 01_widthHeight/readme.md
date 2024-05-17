@@ -1,8 +1,7 @@
-# Figma でよく使う機能を css で再現する
+## width, height
 
-## width, height とは
+![WidthHeight](./img/WidthHeight.png)
 
-![image1](./img/image1.png)
 Width(ウィズ): 幅
 Height(ハイト): 高さ
 
@@ -53,7 +52,10 @@ Height(ハイト): 高さ
 
 ```css
 /* 内包親要素 */
-/* .hugContentsはwidthやheightを指定しない */
+#hugparent {
+  width: fit-content;
+  height: fit-content;
+}
 
 /* 内包子要素 */
 .hugContents {
@@ -85,7 +87,3 @@ Height(ハイト): 高さ
   height: calc(100% / 3);
 }
 ```
-
-## padding
-
-## margin

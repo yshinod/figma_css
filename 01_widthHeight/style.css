@@ -11,7 +11,10 @@
 }
 
 /* 内包親要素 */
-/* .hugContentsはwidthやheightを指定しない */
+#hugParent {
+  width: fit-content;
+  height: fit-content;
+}
 
 /* 内包子要素 */
 .hugContents {
