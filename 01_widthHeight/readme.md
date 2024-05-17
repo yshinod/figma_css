@@ -1,6 +1,6 @@
 ## width, height
 
-![WidthHeight](./img/WidthHeight.png)
+![widthHeight](./img/widthHeight.png)
 
 Width(ウィズ): 幅
 Height(ハイト): 高さ
