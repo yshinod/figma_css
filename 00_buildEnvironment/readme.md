@@ -19,6 +19,7 @@ https://code.visualstudio.com/download
 ![setup2](./img/setup2.png)
 
 検索窓で検索を行い、下記の 2 つの拡張機能をインストールしてください。
+
 Japanese Language Pack for Visual Studio Code
 ![setup3](./img/setup3.png)
 
