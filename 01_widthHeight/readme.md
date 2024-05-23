@@ -50,11 +50,14 @@ Height(ハイト): 高さ
 </div>
 ```
 
+ブロック要素の場合は`width: auto;`(初期値)だと`#hugParent`の幅が親要素いっぱいに広がってしまうため、`width: fit-content;`の指定が必要。
+ブロック要素の`height:auto;`(初期値)は子要素の高さの合計が高さとなるため、指定が不要。
+「ブロック要素」やその他の要素の違いに関しては今後の勉強会で実施。
+
 ```css
 /* 内包親要素 */
-#hugparent {
+#hugParent {
   width: fit-content;
-  height: fit-content;
 }
 
 /* 内包子要素 */
