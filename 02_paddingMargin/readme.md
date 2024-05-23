@@ -1,4 +1,4 @@
-## padding&margin
+# padding&margin
 
 Auto layout では padding を指定できる
 (後述する flexbox プロパティを利用する場合は margin を使う機会が少ない)

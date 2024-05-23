@@ -1,4 +1,4 @@
-## width, height
+# width, height
 
 ![widthHeight](./img/widthHeight.png)
 
@@ -15,9 +15,47 @@ Height(ハイト): 高さ
 - vh
   画面サイズに対する高さを指定
 
-### Figma のレイアウト再現
+## css の適用方法
 
-#### Fixed width(固定)
+### html に直書き
+
+```html
+<div style="background-color: red;"></div>
+```
+
+### id
+
+```html
+<!-- 「hoge」というidを指定 -->
+<div id="hoge"></div>
+```
+
+```css
+/* hogeというidがつけられた要素にスタイルを指定する */
+#hoge {
+  /* ここにスタイルを適用する。 */
+}
+```
+
+### class
+
+```html
+<!-- 「fuga」というclassを指定 -->
+<div class="fuga"></div>
+<div class="fuga"></div>
+<div class="fuga"></div>
+```
+
+```css
+/* fugaというclassがつけられた要素にスタイルを指定する */
+.fuga {
+  /* ここにスタイルを適用する */
+}
+```
+
+## Figma のレイアウト再現
+
+### Fixed width(固定)
 
 ```html
 <div id="fixedParent" style="background-color: gray;">
@@ -41,7 +79,7 @@ Height(ハイト): 高さ
 }
 ```
 
-#### Hug contents（内包）
+### Hug contents（内包）
 
 ```html
 <div id="HugParent" style="background-color: gray;">
@@ -68,7 +106,7 @@ Height(ハイト): 高さ
 }
 ```
 
-#### fill container(拡大)
+### fill container(拡大)
 
 ```html
 <div id="fillParent" style="background-color: gray">
